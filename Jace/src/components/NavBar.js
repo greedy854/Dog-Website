@@ -11,7 +11,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 const socialLinks = [
   { href: "https://www.linkedin.com/in/greedy-378bb030a/", src: navIcon1, alt: "LinkedIn" },
   { href: "https://www.tiktok.com/@greedy.2854", src: navIcon2, alt: "TikTok" },
-  { href: "https://www.instagram.com/greedy_000/", src: navIcon3, alt: "Instagram" },
+  { href: "https://www.instagram.com/jacethebrownlabrador/", src: navIcon3, alt: "Instagram" },
   { href: "https://discord.gg/uJnrDxadGD", src: navIcon4, alt: "Discord" }
 ];
 

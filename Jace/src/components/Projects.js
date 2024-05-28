@@ -1,111 +1,129 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/Project1.png";
-import projImg2 from "../assets/img/Project2.png";
-import projImg3 from "../assets/img/Project3.png";
+import projImg1 from "../assets/img/galleryimg1(1).jpg";
+import projImg2 from "../assets/img/galleryimg1(2).jpg";
+import projImg3 from "../assets/img/galleryimg1(3).jpg";
+import projImg4 from "../assets/img/galleryimg1(4).jpg";
+import projImg5 from "../assets/img/galleryimg1(5).jpg";
+import projImg6 from "../assets/img/galleryimg1(6).jpg";
+import projImg7 from "../assets/img/galleryimg1(7).jpg";
+import projImg8 from "../assets/img/galleryimg1(8).jpg";
+import projImg9 from "../assets/img/galleryimg1(9).jpg";
+import projImg10 from "../assets/img/galleryimg1(10).jpg";
+import projImg11 from "../assets/img/galleryimg1(11).jpg";
+import projImg12 from "../assets/img/galleryimg1(12).jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import projImg19 from "../assets/img/soon.png";
 
 export const Projects = () => {
 
   const projects = [
     {
-      title : "Youtube clone",
-      description: "Remake of Youtube but cooler with code!",
+      title : "",
       imgUrl: projImg1,
     },
     {
-      title: "Notes app",
-      description: "Your own notes app with less code!",
+      title : "",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title : "",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title : "",
+      imgUrl: projImg4,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title : "",
+      imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title : "",
+      imgUrl: projImg6,
     },
   ];
   const projects2 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title : "",
+      imgUrl: projImg7,
     },
     {
-      title: "ll",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title : "",
+      imgUrl: projImg8,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title : "",
+      imgUrl: projImg9,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
+      title : "",
+      imgUrl: projImg10,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
+      title : "",
+      imgUrl: projImg11,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
+      title : "",
+      imgUrl: projImg12,
     },
   ];
   const projects3 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      imgUrl: projImg2,
+    },
+    {
+      title: "",
       imgUrl: projImg3,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
       imgUrl: projImg1,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
       imgUrl: projImg2,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
       imgUrl: projImg3,
     },
   ];
   
+  const projects4 = [
+    {
+      title: "",
+      imgUrl: projImg19,
+    },
+    {
+      title: "",
+      imgUrl: projImg19,
+    },
+    {
+      title: "",
+      imgUrl: projImg19,
+    },
+    {
+      title: "",
+      imgUrl: projImg19,
+    },
+    {
+      title: "",
+      imgUrl: projImg19,
+    },
+    {
+      title: "",
+      imgUrl: projImg19,
+    },
+  ];
   
 
   return (
@@ -117,17 +135,20 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>This is me!</h2>
-                <p>Hello im jace These are my growth pictures</p>
+                <p>Hello im jace These are my growth pictures over the year</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>
-                      <Nav.Link eventKey="first">Gallery 1</Nav.Link>
+                      <Nav.Link eventKey="first">1 Year old</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Gallery 2</Nav.Link>
+                      <Nav.Link eventKey="second">2 Years old</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Gallery 3</Nav.Link>
+                      <Nav.Link eventKey="third">3 Years old</Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                      <Nav.Link eventKey="fourth">4 Years old</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -159,13 +180,24 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <Row>
                         {
                           projects3.map((project, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                {...project}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="fourth">
+                      <Row>
+                        {
+                          projects4.map((project, index) => {
                             return (
                               <ProjectCard
                                 key={index}

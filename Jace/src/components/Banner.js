@@ -9,7 +9,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = ["Lazy dog", "Happy dog", ""];
+  const toRotate = ["A Lazy Dog", "A Happy Dog", "A Playable Dog","A Funny Dog"];
   const period = 2000;
 
   useEffect(() => {
