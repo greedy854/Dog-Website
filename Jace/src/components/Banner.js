@@ -56,7 +56,7 @@ export const Banner = () => {
                       <span className="wrap">{text}</span>
                     </span>
                   </h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>Hello im jace a brown labrador from the Netherlands i love sleeping, playing and eating ofcourse if u wanna see more about me or get to know me then dont wait and scroll further!</p>
                   <button onClick={() => window.location.href='#connect'}>
                     Let’s Connect <ArrowRightCircle size={25} />
                   </button>
