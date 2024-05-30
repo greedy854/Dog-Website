@@ -24,7 +24,7 @@ export const About = () => {
             <div className="skill-bx wow zoomIn">
               <h2>About me!</h2>
               <p>
-                ahahhaahahh ahhahahaha hahahhaah hahhahaha hahahahh
+                Hello im jace a brown labrador from the Netherlands i love sleeping, playing and eating ofcourse if u wanna see more about me or get to know me then dont wait and scroll further!
               </p>
             </div>
           </div>
