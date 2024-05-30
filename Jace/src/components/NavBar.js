@@ -58,12 +58,6 @@ export const NavBar = () => {
                 </Nav.Link>
               ))}
             </Nav>
-            <span className="navbar-text">
-              <SocialIcons />
-              <HashLink to='#connect'>
-                <button className="vvd"><span>Let’s Connect</span></button>
-              </HashLink>
-            </span>
             
             <span className="navbar-text2">
             <HashLink to='https://www.instagram.com/jacethebrownlabrador/'>

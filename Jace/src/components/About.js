@@ -24,16 +24,7 @@ export const About = () => {
             <div className="skill-bx wow zoomIn">
               <h2>About me!</h2>
               <p>
-                I'm a software developer with an insatiable appetite for success. 
-                Driven by an inherent sense of ambition, I relentlessly pursue excellence 
-                in every project I undertake. My thirst for knowledge and mastery in coding 
-                languages fuels my desire to continuously innovate and optimize solutions. 
-                Greed, in my context, is my unwavering drive to achieve more, learn faster, 
-                and push the boundaries of what's possible. With a keen eye for detail and 
-                a passion for problem-solving, I thrive in dynamic environments where challenges 
-                are the norm. Whether it's developing cutting-edge applications or enhancing 
-                existing systems, my goal is always to deliver top-tier results, pushing myself 
-                and my team to new heights.
+                ahahhaahahh ahhahahaha hahahhaah hahhahaha hahahahh
               </p>
             </div>
           </div>

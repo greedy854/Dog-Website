@@ -12,6 +12,12 @@ import projImg9 from "../assets/img/galleryimg1(9).jpg";
 import projImg10 from "../assets/img/galleryimg1(10).jpg";
 import projImg11 from "../assets/img/galleryimg1(11).jpg";
 import projImg12 from "../assets/img/galleryimg1(12).jpg";
+import projImg13 from "../assets/img/galleryimg1(13).jpg";
+import projImg14 from "../assets/img/galleryimg1(14).jpg";
+import projImg15 from "../assets/img/galleryimg1(15).jpg";
+import projImg16 from "../assets/img/galleryimg1(16).jpg";
+import projImg17 from "../assets/img/galleryimg1(17).jpg";
+import projImg18 from "../assets/img/galleryimg1(18).jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -74,27 +80,27 @@ export const Projects = () => {
   const projects3 = [
     {
       title: "",
-      imgUrl: projImg2,
+      imgUrl: projImg13,
     },
     {
       title: "",
-      imgUrl: projImg2,
+      imgUrl: projImg14,
     },
     {
       title: "",
-      imgUrl: projImg3,
+      imgUrl: projImg15,
     },
     {
       title: "",
-      imgUrl: projImg1,
+      imgUrl: projImg16,
     },
     {
       title: "",
-      imgUrl: projImg2,
+      imgUrl: projImg17,
     },
     {
       title: "",
-      imgUrl: projImg3,
+      imgUrl: projImg18,
     },
   ];
   
