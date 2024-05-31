@@ -25,7 +25,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
-export const Projects = () => {
+export const Contact = () => {
 
   const projects = [
     {
@@ -205,4 +205,4 @@ export const Projects = () => {
     </section>
   )
 }
-export default Projects;
+export default Contact;
