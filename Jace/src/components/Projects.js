@@ -158,7 +158,7 @@ export const Projects = () => {
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
+                    <Tab.Pane className="hello4" eventKey="first">
                       <Row>
                         {
                           projects.map((project, index) => {
@@ -172,7 +172,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="second">
+                    <Tab.Pane className="hello5" eventKey="second">
                       <Row>
                         {
                           projects2.map((project, index) => {
@@ -186,7 +186,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="third">
+                    <Tab.Pane className="hello6" eventKey="third">
                       <Row>
                         {
                           projects3.map((project, index) => {
@@ -200,7 +200,7 @@ export const Projects = () => {
                         }
                       </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="fourth">
+                    <Tab.Pane className="hello7" eventKey="fourth">
                       <Row>
                         {
                           projects4.map((project, index) => {

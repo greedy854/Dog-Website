@@ -190,6 +190,35 @@ span.navbar-text {
 	position: absolute;
 }
 
+.hello img{
+  width: 27.5rem;
+  height: 31rem;
+}
+.hello2 img{
+  width: 27.5rem;
+  height: 31rem;
+}
+.hello3 img{
+  width: 27.5rem;
+  height: 31rem;
+}
+.hello4 img{
+  width: 27.5rem;
+  height: 31rem;
+}
+.hello5 img{
+  width: 27.5rem;
+  height: 31rem;
+}
+.hello6 img{
+  width: 27.5rem;
+  height: 31rem;
+}
+.hello7 img{
+  width: 27.5rem;
+  height: 31rem;
+}
+
 .navbar-text2 button {
   font-weight: 700;
   color: #fff;
@@ -404,6 +433,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin: 14px auto 30px auto;
   text-align: center;
   width: 56%;
+}
+.col-md-4 col-sm-6{
+  background: red;
 }
 .project .nav.nav-pills {
   width: 72%;
