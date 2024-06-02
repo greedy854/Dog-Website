@@ -29,97 +29,97 @@ export const Contact = () => {
 
   const projects = [
     {
-      title : "Youtube clone",
-      description: "Remake of Youtube but cooler with code!",
+      title : "",
+      
       imgUrl: projImg4,
     },
     {
-      title: "Notes app",
-      description: "Your own notes app with less code!",
+      title: "",
+      
       imgUrl: projImg5,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      
       imgUrl: projImg6,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      
       imgUrl: projImg7,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      
       imgUrl: projImg8,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      
       imgUrl: projImg9,
     },
   ];
   const projects2 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      
       imgUrl: projImg10,
     },
     {
-      title: "ll",
-      description: "Design & Development",
+      title: "",
+      
       imgUrl: projImg11,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      
       imgUrl: projImg12,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+     
       imgUrl: projImg13,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      
       imgUrl: projImg14,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      
       imgUrl: projImg15,
     },
   ];
   const projects3 = [
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      
       imgUrl: projImg16,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      
       imgUrl: projImg17,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      
       imgUrl: projImg18,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+      
       imgUrl: projImg19,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+
       imgUrl: projImg20,
     },
     {
-      title: "Business Startup",
-      description: "Design & Development",
+      title: "",
+
       imgUrl: projImg21,
     },
   ];
