@@ -118,7 +118,7 @@ export const Contact = () => {
       imgUrl: projImg20,
     },
     {
-      title: "",
+      title: "hello",
 
       imgUrl: projImg21,
     },
