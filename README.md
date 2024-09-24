@@ -1,1 +1,1 @@
-This my personal portfolio made with react and linked to my other projects!
+This is a website made based of my dog with react.js! 
